@@ -3,7 +3,7 @@ using namespace std;
 int main () 
 {
   int angka_yang_dicari = 30;
-  int array [] = {55,53,52,51,30,24,21,15,10,5);
+  int array [] = {55,53,52,51,30,24,21,15,10,5};
   int min =0;
   int max =(sizeof (array)/ sizeof(*array) - 1);
   int nilai_perkiraan;
@@ -13,7 +13,7 @@ int main ()
       if(angka_yang_dicari == array[nilai_perkiraan])
       
   {
-      coout<<"Angka yang dicari berada pada index " << Nilai_perkiraan << endl;
+      cout<<"Angka yang dicari berada pada index " << nilai_perkiraan << endl;
       break;
   } else if (array[nilai_perkiraan] < angka_yang_dicari) {
   min = nilai_perkiraan + 1;
